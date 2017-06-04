@@ -1,0 +1,4 @@
+.idea
+*.iml
+target
+*MM_datafeed_data.txt
