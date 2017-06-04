@@ -1,5 +1,5 @@
-# DataFeedHadoop
-An example of some code that performs simple operations on Adobe Analytics Click Stream Data Feed data
+# Data Feed Secondary Sort
+An example of some code that performs simple operations on Adobe Analytics Click Stream Data Feed data. This project differs from the DataFeedHadoop project in that it implements a custom key type and custom comparitor that enable an efficient secondary sort. As a result, this Hadoop job should be very memory efficient and should scale very well -- especially as the number of hits per visitor increases.
 
 To compile, run `mvn clean package`
 
